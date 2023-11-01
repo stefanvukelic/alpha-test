@@ -1,0 +1,14 @@
+header {
+  background-color: #F9F9F9;
+  position: relative;
+  &:before {
+    background: #FFD900;
+    border-top-left-radius: 50px;
+    width: 590px;
+    content: " ";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+  }
+}
