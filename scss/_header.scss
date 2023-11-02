@@ -37,6 +37,7 @@ header {
     }
   }
   #counter {
+    width: 100%;
     position: relative;
     z-index: 2;
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0.51) 0%, rgba(255, 255, 255, 0.51) 50%, rgba(255, 255, 255, 0.49));
@@ -71,5 +72,8 @@ header {
    &:before {
      width: 590px;
    }
+    #counter {
+      width: 60%;
+    }
   }
 }
